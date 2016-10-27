@@ -2,6 +2,8 @@ h1 {
     color: blue;
     font-size: 40px;
     font-weight: lighter;
+    font-family: 'Damion', cursive;
+    font-family: 'Cherry Cream Soda', cursive;
 }
 
 h2 {
@@ -16,5 +18,50 @@ p {
 
 a {
     font-weight: bolder;
-    font-size: 20px
+    font-size: 20px;
+}
+
+* {
+    background-color: #FFe177;
+    border: 3px solid red;
+    /*我是筆記
+    正規寫法如下
+    border-width: ;
+    border-style: ;
+    border-color: ;
+    */
+}
+
+.green {
+    /*background-color: cornsilk;*/
+    background-image: url(../images/green.jpg);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    padding-top: 100px;
+    color: green;
+    font-family: sans-serif;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    height: 200px;
+    position: relative;
+}
+
+.blue {
+    background-color: ;
+    color: blue;
+    font-family: arial;
+    text-align: right;
+}
+
+.purple {
+    color: purple;
+    font-family: 'Damion', cursive;
+}
+
+.red {
+    color: red;
+}
+
+#pupleh2 {
+    color: purple;
 }
